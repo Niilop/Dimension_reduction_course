@@ -1,0 +1,25 @@
+Make a list that will collect all the indices (that correspond to attributes)
+
+attributes (x1, x2, x3, x4, x5, x6)
+
+attribute x3 is the best so the index_list is now (2,)
+
+
+attributes (x1, x2, x3, x4, x5, x6)
+
+if i in index_list -> skip
+
+attribute x4 is the best so index_list is now (2,3)
+
+
+
+
+ssd test 0.01 == 5659
+
+ssd test 0.1 == 46212
+
+ssd test 0.2 == 149881
+
+ssd test 0.5 == 332288
+
+ssd test 0.8 == 507866
